@@ -12,6 +12,11 @@ The audit's focus is to verify that the smart contract system is secure, resilie
 
 This audit is based on commit hash `bb734f8a09f8bb5ce10824f57ee7012be42a4356` of <https://github.com/DecentralizedAssetManagement/SetV2Customization>. The fixes were verified on commit hash `1c7c3e36e22c7ec3c1b01859752e7cb8ede2fd16`.
 
+Contracts in scope for the audit:
+
+- contracts/exit-fee-erc/ExitFeeERC20.sol
+- contracts/exit-fee-erc/FeeExemptRouter.sol
+
 ## Findings
 
 During the audit, 0 Critical, 1 Major, 2 Minor, and 6 Informational issues were found.
